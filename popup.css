@@ -12,3 +12,11 @@ select{display:block;width:100%;padding:7px;border:1px solid #d8ddcf;border-radi
 .entry-toggle{background:#f0f4e9;font-size:12px;font-weight:600;margin:0 0 8px}.entry-form{padding:12px;margin-bottom:12px;border:1px solid #dce4d1;border-radius:10px;background:#f8faf4}.entry-heading{font-size:14px}.draft-hint{font-size:11px;color:#697164;margin:0}.entry-close{background:white;font-size:12px}
 
 #word-results h2,#pack-results-heading{font-size:13px;margin:14px 0 8px}.word-result{display:grid;grid-template-columns:1fr auto;gap:4px 10px;width:100%;text-align:left;background:white;padding:10px;margin:6px 0}.word-result small{color:#716086}.word-result span{grid-column:1/-1;font-size:12px;font-weight:400;white-space:pre-wrap;overflow-wrap:anywhere}.settings>select{margin-bottom:14px}
+
+.pack-head{padding-left:43px}.pack-head .pack-grip{position:absolute;left:0;top:0;bottom:0;width:25px;flex:none;background:#f6f8f2;color:#828a7b;text-align:center;font-size:21px;cursor:grab}.pack-head .pack-colour{left:25px;width:12px}.pack-grip:active{cursor:grabbing}.pack.drop-target{outline:2px dashed #716086;outline-offset:2px}.app-footer{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #e6eadf;margin-top:12px;padding-top:10px;font-size:10px;color:#77816f}.app-footer a{font-size:18px;text-decoration:none;color:#697164;padding:4px 8px;border-radius:6px}.app-footer a:hover{background:#edf1e6}.entry-form label select{margin-bottom:0}
+
+.search-tools{padding:0;background:transparent}.library-search-box{position:relative}.library-search-box svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:18px;height:18px;fill:none;stroke:#697164;stroke-width:1.8;stroke-linecap:round;pointer-events:none}.search-tools .library-search-box input[type="search"]{margin:0;padding-left:38px}.library-search-box input::placeholder{font-style:italic}.search-tools #search-summary:empty{display:none}
+
+#pack-name::placeholder{font-style:italic}
+
+.app-footer a{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:500}.app-footer a svg{flex:none}

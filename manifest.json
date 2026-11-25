@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "StudyJug",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Remember vocabulary with language packs, coloured underlines and your own definitions.",
   "permissions": [
     "storage",
@@ -38,5 +38,6 @@
   ],
   "background": {
     "service_worker": "background.js"
-  }
+  },
+  "author": "James Pfaff (@TristanofJugdral)"
 }

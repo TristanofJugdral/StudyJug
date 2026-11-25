@@ -1,5 +1,5 @@
-StudyJug 1.2.2
-Creator: TristanofJugdral
+StudyJug 1.2.3
+Creator: @TristanofJugdral
 
 USE
 Create a language pack, expand it, and add words with your own definitions.

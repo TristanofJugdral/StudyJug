@@ -18,7 +18,7 @@ All data you create or configure inside StudyJug is stored locally on your devic
 
 When language packs are enabled, StudyJug's content script runs locally inside your browser tab to scan text on a web page for words matching your saved vocabulary list, underline those words, then display your saved definition card when you hover/click an underlined term. 
 
-When you use the right-click **"Save to StudyJug"** option or open the extension popup, StudyJug reads only the text you have highlighted on the active tab so it can prefill the word form for you.
+When you use the right-click **"Save ___ to StudyJug"** option or open the extension popup, StudyJug reads only the text you have highlighted on the active tab so it can pre-fill the word form for you.
 
 * All text scanning and matching happen strictly on your device.
 * StudyJug does **not** record, log, or transmit the web pages you visit or your browsing history.

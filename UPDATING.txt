@@ -1,0 +1,28 @@
+UPDATING STUDYJUG WITHOUT LOSING YOUR LIBRARY
+
+For your unpacked development copy:
+1. Keep the existing extension installed and keep its folder in the same location.
+2. Close the popup. Copy the new release files INTO that existing folder, replacing code and icons.
+3. Open chrome://extensions and click the circular Reload button on StudyJug's card.
+4. Reload article tabs so they use the new content script.
+Do not click Remove, uninstall, clear extension storage, or load a second copy from a different folder.
+Your library lives in chrome.storage.local, not in the extension files.
+
+For users of a published Chrome Web Store release:
+Increase manifest version and upload the new ZIP to the SAME extension listing in the developer dashboard. Keep the same extension ID. Chrome distributes the update. Do not publish a separate extension for each release. Future data schema migrations must preserve existing records and must never reset storage on update.
+
+STARS
+Star a word from its definition card or pack list. Starred words appear first within their pack; original insertion order is preserved within each group. Unstarring restores its original place. Existing entries retain their order.
+
+SAVE SELECTED TEXT
+Select text on a normal web page, right-click, choose Save to StudyJug. The popup opens with the selection prefilled in each expanded pack's word form. Choose the pack, add your definition and optional phonetics, and save. On systems where automatic popup opening fails, a StudyJug tab opens instead. A definition is still required; no external dictionary is queried.
+
+COLOURS
+Each expanded pack has an Underline colour selector: lime green, red, orange, yellow, blue, purple, pink and brown. Existing colours remain available. Quiz mode remains a future feature.
+
+SEARCH (1.2.2)
+Global search matches pack names and/or saved terms, phonetics and definitions. Choose a scope with Search in. A pack-name match shows all its words; a word match shows matching entries. Local pack searches further narrow results. Searches do not modify saved words or star order. Clear the global search to restore normal pack expansion.
+
+RELEASE NUMBER
+This release is 1.2.2. Further releases stay in the 1.2 series until authorised.
+Palette includes the existing lime green, red, orange, yellow, blue, purple, pink and brown, plus green, light blue/cyan, magenta and light brown. Existing pack colours are preserved.

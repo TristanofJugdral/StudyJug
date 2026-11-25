@@ -1,4 +1,4 @@
-UPDATING STUDYJUG WITHOUT LOSING YOUR LIBRARY
+[ADMIN] UPDATING STUDYJUG WITHOUT LOSING YOUR LIBRARY
 
 For your unpacked development copy:
 1. Keep the existing extension installed and keep its folder in the same location.

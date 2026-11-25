@@ -1,17 +1,12 @@
 StudyJug 1.2.2
-
-INSTALL
-1. Open chrome://extensions in Chrome.
-2. Enable Developer mode.
-3. Choose Load unpacked and select this StudyJug folder (unzip first if needed).
-4. Pin StudyJug. Reload existing article tabs once after installing/updating.
+Creator: TristanofJugdral
 
 USE
 Create a language pack, expand it, and add words with your own definitions.
 Each pack has an independent Underline switch. Multiple packs can be enabled.
 Hover over or click an underlined word or focus it and press Enter to reveal definitions.
 Escape, outside click, or scrolling closes the definition card.
-Words can be edited or deleted. Data stays in Chrome local extension storage.
+Words can be edited or deleted. Data stays in Chrome local extension storage, any stored data is stored internally.
 Existing languages/translation data is migrated on first popup opening; old data is retained.
 Quiz mode is visibly reserved for a future release and is disabled.
 
